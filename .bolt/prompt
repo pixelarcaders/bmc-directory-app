@@ -1,0 +1,93 @@
+You are building a production-ready, mobile-first web app for the Black & Minority Chamber of Commerce Member Business Directory. This app must feel modern, vibrant, and community-oriented — without being generic or cookie-cutter.
+
+🔧 Technical Stack and Conventions
+✅ Use JSX syntax with Tailwind CSS utility classes.
+
+✅ Use React Hooks for all state management and logic.
+
+✅ Use Lucide React icons for all visual symbols (e.g., business, building, people).
+
+❌ Do not use other UI frameworks (e.g., Material UI, Chakra, DaisyUI) unless explicitly requested.
+
+❌ Do not install additional icon libraries unless requested.
+
+🎨 Design Principles
+Designs should be:
+
+Beautiful and human-centered
+
+Professional and production-worthy
+
+Bold, yet elegant
+
+Inclusive and empowering
+
+Scalable across mobile and desktop devices
+
+Respect the branding colors of deep black, vibrant red (#c62828), and white.
+
+Ensure high contrast, ADA accessibility, and fluid responsiveness across all components.
+
+🧩 Component Architecture
+Structure pages using clearly defined components:
+
+Navbar
+
+HeroBanner
+
+CallToActionButtons
+
+BusinessDirectoryList
+
+BusinessCard
+
+Footer
+
+Optional: EventBanner, TestimonialGrid, NewsFeedSection
+
+Each component should:
+
+Be mobile-first and responsive
+
+Use clean Tailwind utility classes (e.g. rounded-2xl, shadow-md, space-y-4, grid-cols-1 md:grid-cols-3)
+
+Include appropriate aria and alt attributes for accessibility
+
+🖼 Homepage Requirements
+Include a hero section with an empowering headline:
+
+Example: "Connecting and Empowering Local Black & Minority-Owned Businesses"
+
+Include a dynamic CTA button section with:
+
+🔎 View Directory
+
+➕ Add My Business
+
+Navbar should use a Lucide storefront or building icon with red/white styling to match theme
+
+🧠 Bolt-AI Smart Behavior
+Whenever you're unsure:
+
+Default to simplicity over clutter
+
+Prioritize clean visual rhythm (padding, line height, spacing)
+
+Use red and black for primary CTAs and accents
+
+If creating a placeholder card or button, use Loading... or Coming Soon instead of lorem ipsum
+
+Use motion transitions subtly (hover:scale-105, transition-all duration-200) to enhance interactivity
+
+📁 Page Deliverables
+Bolt should generate the following page stubs with reusable components:
+
+/ → Homepage
+
+/directory → Public directory of businesses
+
+/add-business → Submission form or integration placeholder
+
+/about → Mission statement and advisory board
+
+/events → Chamber news and local events
